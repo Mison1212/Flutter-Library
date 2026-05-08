@@ -1,0 +1,36 @@
+name: my_button_lib
+description: "Custom button library untuk tim."
+# Gunakan versioning yang konsisten dengan tag yang akan dipublikasikan
+version: 0.0.1
+homepage: https://github.com/perusahaan/my_button_lib
+
+environment:
+  sdk: ^3.11.5
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # CATATAN: Jangan masukkan 'my_button_lib' di sini jika ini adalah 
+  # file pubspec milik my_button_lib itu sendiri.
+  # Masukkan dependency lain yang dibutuhkan library ini di sini, contoh:
+  # google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # Versi lints terbaru biasanya menyesuaikan dengan SDK
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Jika ada assets atau fonts, buka komentar di bawah ini:
+  # assets:
+  #   - assets/images/
+  
+  # fonts:
+  #   - family: MyCustomFont
+  #     fonts:
+  #       - asset: fonts/MyFont-Regular.ttf
